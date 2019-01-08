@@ -1,0 +1,31 @@
+# this is the root URL for your site - keep empty if testing locally (or set --baseurl '' in jekyll serve) but if you plan on using
+# jekyll on github pages make sure to specify your baseurl to match the repo directory name
+title: Lerry William - Remote sensing, gis, cartography and other stuff!
+author: Lerry William
+baseurl:
+url: lerryws.xyz
+name: Personal Website
+description: Lerry William's portfolio. Tips for geospatial stuff such as Geoinformation, Remote Sensing, Geomatics,
+  and a bit of spatial programming (mostly python and R).
+
+# site runs locally at localhost:4000 when you run `jekyll serve --watch`
+port:  4000
+
+# ensure UTF-8 character encoding. Be sure to add <meta charset="utf-8"> as well!
+encoding: utf-8
+
+# markdown
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# include Pygments for syntax highlighting
+highlighter: rouge
+
+# permalinks
+permalink: /posts/:title
+
+#opt back in to relative permalinks - was set to opt out in jekyll 2.0
+# relative_permalinks: true

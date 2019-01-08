@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.author }}{% endif %}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Robots" content="index, follow">
+  <meta property="og:title" content="{{ page.title }}"/>
+  {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}"/>{% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter_url }}">
+  <meta name="twitter:title" content="{{ page.title }}" />
+  {% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+
+  {% include favicon.html %}
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script> -->
+  <script type="text/javascript" src="/js/Chart.min.compressed.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  <script type="text/javascript" src="../js/datamaps.none.min.js"></script>
+  <link rel="script" href="/fontawesome/css/all.css">
+  <link rel="stylesheet" href="/fontawesome/css/all.css">
+  <link rel="stylesheet" href="/css/lws.css">
+  <link rel="stylesheet" href="/css/leaflet.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  {% for js in page.extra_js_cdn %}<script type="text/javascript" src="{{ js }}"></script>{% endfor %}
+  {% for css in page.extra_css_cdn %}<link rel="stylesheet" href="{{ css }}">{% endfor %}
+  {% for css in page.extra_css %}<link rel="stylesheet" href="{{site.baseurl}}/css/{{ css }}">{% endfor %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-9792889126704578",
+      enable_page_level_ads: true
+    });
+  </script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125651421-1"></script>
+	<script>
+		 window.dataLayer = window.dataLayer || [];
+		 function gtag(){dataLayer.push(arguments);}
+		 gtag('js', new Date());
+		 gtag('config', 'UA-125651421-1');
+	</script>
+
+</head>
+
+<!-- <body oncopy="return false" oncut="return false" onpaste="return false"> -->
+<body>

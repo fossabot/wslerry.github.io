@@ -1,0 +1,92 @@
+
+<div id="container" style="position: relative; width: auto; height: 200px;"></div>
+
+<script>
+  var map = new Datamap({
+      scope: 'malaysia',
+      element: document.getElementById('container'),
+      geographyConfig: {
+        popupOnHover: true,
+        highlightOnHover: false,
+        borderColor: '#6a6a6a',
+        borderWidth: 0.5,
+        dataUrl: '../assets/data/malaysia.topojson'
+      },
+      setProjection: function(element) {
+        var projection = d3.geo.mercator()
+            .center([108.9302623, 3.395761])
+            .scale(1400)
+            .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+        var path = d3.geo.path()
+            .projection(projection);
+        return {path: path, projection: projection};
+      },
+      fills: {
+        defaultFill: '#ffffff',
+        school: '#6dcc6e',
+        work: 'red'
+      }
+    });
+
+    let experience = [
+      {
+        name: 'Myspatial',
+        radius: 5,
+        fillKey: 'work',
+        latitude: 2.9684686441688,
+        longitude: 101.7889507100124
+      },
+      {
+        name: 'Curtin University',
+        radius: 15,
+        fillKey: 'work',
+        latitude: 4.51292761320469,
+        longitude: 114.01688289786765
+      },
+      {
+        name: 'Teamplete',
+        radius: 10,
+        fillKey: 'work',
+        latitude: 4.416398927639947,
+        longitude: 114.01285171143209
+      },
+      {
+        name: 'GP Pusaka',
+        radius: 18,
+        fillKey: 'work',
+        latitude: 3.1987693664216916,
+        longitude: 113.05611679739332
+      },
+      {
+        name: 'SM Sains Miri',
+        radius: 8,
+        fillKey: 'school',
+        latitude: 4.320630310465478,
+        longitude: 113.96582120301727
+      },
+      {
+        name: 'Kolej Matrikulasi Labuan',
+        radius: 5,
+        fillKey: 'school',
+        latitude: 5.359263765774308,
+        longitude: 115.2248950997228
+      },
+      {
+        name: 'Universiti Teknologi Malaysia',
+        radius: 10,
+        fillKey: 'school',
+        latitude: 1.55930184860160,
+        longitude: 103.63792155512107
+      }
+    ];
+
+    //draw bubbles for experience
+    map.bubbles(experience, {
+        borderColor: '#ffffff',
+        fillOpacity: 0.75,
+        borderWidth: 2,
+        popupTemplate: function (geo, data) {
+                return ['<div class="hoverinfo">' +  data.name + '</div>'];
+        }
+    });
+</script>

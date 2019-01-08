@@ -1,0 +1,69 @@
+{% include header.html %}
+{% include nav.html %}
+<nav>
+	<div style="text-align:center">
+		<div class="twelve columns ">
+			<h1>LERRY WILLIAM SELING</h1>
+		</div>
+		<div class="row" style="text-align:left">
+			<ul style="list-style: none;">
+				{% for item in page.mycontact %}
+					<li>
+						{{ item.iconclass }} <span class="resume_timeline">{{ item.address }}</span>
+					</li>
+				{% endfor %}
+			</ul>
+	  </div>
+	</div>
+</nav>
+
+<div class="resume">
+	<!-- <h2 style="font-weight=bold; text-align:center">Objectives</h2>
+	<ul>
+	{% for item in page.objectives%}
+		<li><p class="resume_description">{{ item.description }}</p></li>
+	{% endfor %}
+	</ul> -->
+
+	<h2 style="font-weight=bold; text-align:center">Skills</h2>
+	{% include charts.html %}
+
+	<h2 style="font-weight=bold; text-align:center">Geographic </h2>
+	<p style="text-align:center">
+		<span style="color:#6dcc6e">Education</span> | <span style="color:red">Workplace</span>
+	</p>
+	{% include map.html %}
+
+  <h2 style="font-weight=bold">Experiences</h2>
+  {% for item in page.jobs %}
+		<div class="row">
+			<div class="twelve columns">
+		    <div class="resume_item cf {{ item.extra }}">
+		      <div class="resume_logo"><img src="{{ item.img }}"></div>
+		      <h3 class="resume_header">{{ item.name }}<span class="resume_title">{{ item.title }}</span></h3>
+		      <span class="resume_timeline">{{ item.time }}</span>
+		      <p class="resume_description">{{ item.description }}</p>
+		    </div>
+			</div>
+		</div>
+  {% endfor %}
+
+  <h2 style="font-weight=bold">Education</h2>
+    {% for item in page.edu %}
+    <div class="resume_item cf {{ item.extra }}">
+      <div class="resume_logo"><img src="{{ item.img }}"></div>
+      <h3 class="resume_header">{{ item.name }}<span class="resume_degree">{{ item.degree }}</span></h3>
+      <span class="resume_timeline">{{ item.time }}</span>
+      <p class="resume_description">{{ item.description }}</p>
+    </div>
+    {% endfor %}
+
+  <!-- <h2>Things</h2>
+  {% for item in page.extras %}
+    <div class="resume_item cf {{ item.extra }}">
+      <h3 class="resume_header">{{ item.name }}<span class="resume_title">{{ item.title }}</span></h3>
+      <span class="resume_timeline">{{ item.time }}</span>
+      <p class="resume_description">{{ item.description }}</p>
+    </div>
+  {% endfor %} -->
+</div>

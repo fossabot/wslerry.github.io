@@ -1,2 +1,5 @@
-# wslerry.github.io
-Personal website
+Requires [jekyll](https://jekyllrb.com/).
+
+```shell
+jekyll serve
+```

@@ -1,0 +1,33 @@
+{% if include.pageurl != nil and include.pageurl != '' %}
+    {% assign pageurl = include.pageurl %}
+{% else %}
+    {% assign pageurl = page.url %}
+{% endif %}
+
+<style media="screen">
+  #iconstyle {display: inline-block; vertical-align: middle; }
+  #iconstyle > div {
+      position: relative;
+      text-align: left;
+      height: 36px;
+      width: 32px;
+      float: left;
+      text-align: center;
+  }
+</style>
+
+
+<div class="iconstyle">
+  <div class="row">
+  </div>
+
+  <div class="row">
+    <i class="fa fa-envelope"></i><a href="mailto:wslerry2@hotmail.com"> Email </a>
+    <i class="fab fa-github"></i><a href="https://github.com/wslerry"> Github </a>
+    <i class="fab fa-twitter"></i><a href="https://twitter.com/Lerry_WS"> Twitter </a>
+    <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/lerrywilliamseling/"> Linkedin </a>
+  </div>
+
+  <div class="row">
+  </div>
+</div>
