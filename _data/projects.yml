@@ -1,12 +1,12 @@
 -
-  name: Project 2 (Current)
-  url:
-  image:
-  color: ''
-  description:
+  name: Drone Photogrammetry Calculator
+  url: https://lerryws.xyz/GSD
+  image: /images/icons/calculator_icon_200.png
+  color: '#ffffff'
+  description: Calculator to estimate Ground Sample Distance (GSD) from aerial photogrammetry.
 -
-  name: Project 1
-  url:
-  image:
-  color: ''
-  description: 
+  name: Li-Po Battery Calculator
+  url: https://lerryws.xyz/Li-Po-battery-Calculator/
+  image: /images/icons/calculator_icon_200.png
+  color: '#ffffff'
+  description: Calculator to calculate wattage of Li-Po for drones.
