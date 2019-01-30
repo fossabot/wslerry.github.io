@@ -2,6 +2,7 @@
 layout: post
 title: "Fast and furious geospatial data mosaic"
 description: "Tips to mosaic data"
+categories: [GDAL, image processing, remote sensing]
 image: "../images/post_images/2019-01-30-a.png"
 ---
 

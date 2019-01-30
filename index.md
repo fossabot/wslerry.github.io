@@ -12,7 +12,7 @@ keywords: Lerry William Seling, Remote Sensing, Geospatial, Geoinformation, Anal
 {% include menu.html %}
 
 <!-- ![img_grn1.png](/images/misc/img_grn1.png) -->
-
+<p></p>
 <div class="row">
 	<div class="ten columns">
 		<div class="row">
