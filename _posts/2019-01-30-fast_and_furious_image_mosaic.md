@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fast and furios geospatial data mosaic"
+title: "Fast and furious geospatial data mosaic"
 description: "Tips to mosaic data"
 image: "../images/post_images/2019-01-30-a.png"
 ---
