@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Review on geospatial industries in 2018"
-description: "Review on geospatial industries especially within research and development, technology, and application"
+title: "Geospatial in Sarawak"
+description: "Opinion and review on geospatial technology and development in Sarawak, Malaysia"
 ---
