@@ -13,8 +13,8 @@ Well, I try to simplify this workflow and implemented it just using [GDAL](https
 __GDAL__ is a geospatial famous library for reading and writing raster and vector data formats.
 
 We can do all of this by using [GDAL VRT (Virtual Format)](https://www.gdal.org/gdal_vrttut.html) which allow us to work
-with virtual data. __VRT__ datasets will be save into __XML__ format file with extension name __*.vrt__.
-So, this will save you a lots of space by running only in virtual data and it is a faster way to load many of datasets.
+with virtual data. __VRT__ datasets will be saved into __XML__ format file with extension name __*.vrt__.
+So, this will save you a lot of spaces by running only in virtual data and it is a faster way to load many of datasets.
 
 As an example, I will try to mosaic __DEM__ datasets within my file folder (*Basically you can use this for any geospatial images, that will be for next tutorial*). 
 
