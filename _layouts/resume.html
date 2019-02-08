@@ -39,10 +39,10 @@
 		<div class="row">
 			<div class="twelve columns">
 		    <div class="resume_item cf {{ item.extra }}">
-		      <div class="resume_logo"><img src="{{ item.img }}"></div>
+		      <!-- <div class="resume_logo"><img src="{{ item.img }}"></div> -->
 		      <h3 class="resume_header">{{ item.name }}<span class="resume_title">{{ item.title }}</span></h3>
 		      <span class="resume_timeline">{{ item.time }}</span>
-		      <p class="resume_description">{{ item.description }}</p>
+		      <!-- <p class="resume_description">{{ item.description }}</p> -->
 		    </div>
 			</div>
 		</div>
@@ -51,10 +51,10 @@
   <h2 style="font-weight=bold">Education</h2>
     {% for item in page.edu %}
     <div class="resume_item cf {{ item.extra }}">
-      <div class="resume_logo"><img src="{{ item.img }}"></div>
+      <!-- <div class="resume_logo"><img src="{{ item.img }}"></div> -->
       <h3 class="resume_header">{{ item.name }}<span class="resume_degree">{{ item.degree }}</span></h3>
       <span class="resume_timeline">{{ item.time }}</span>
-      <p class="resume_description">{{ item.description }}</p>
+      <!-- <p class="resume_description">{{ item.description }}</p> -->
     </div>
     {% endfor %}
 
