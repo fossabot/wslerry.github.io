@@ -3,6 +3,7 @@ layout: post
 title: "Mosaicking satellite datasets with GDAL VRT"
 description: "How to use gdalbuildvrt to mosaic satellite images"
 categories: [GDAL, image processing, python, remote sensing]
+image: "../images/post_images/2019-02-11.png"
 ---
 
 ![png](../images/post_images/2019-02-11.png)
