@@ -6,11 +6,11 @@ categories: [image processing, python, remote sensing]
 image: "../images/post_images/2019-02-13_thumb.png"
 ---
 
-![png](../images/post_images/2019-02-13_thumb.png){: .center-image }
+Remote sensing is a fun game until you are dealing with abnormal datasets, it could be clouds cover %, radiometric effect, and _striping effect_!
 
-Remote sensing is a fun game until you dealing with abnormal datasets, it could be clouds cover %, radiometric effect, and _striping effect_!
+![png](../images/post_images/2019-02-13_thumb2.png) *Landsat 7 ETM+ before destriping*
 
-If you are working with Landsat-7 ETM+ you are likely to encounter striping effect caused by scan line corrector (SLC) failure in 2003. In case we need to do some study or looking for historic data that dated back to 2003 for our area of interest (AOI), then definitely we need to correct or destripe this striping effect.
+If you are working with Landsat-7 ETM+ then you are likely to encounter striping effect caused by scan line corrector (SLC) failure since 2003. In case we need to do some study or looking for historic data that dated back to 2003 for our area of interest (AOI), then definitely we need to correct or destripe this striping effect.
 
 There are few methods that has been developed to encounter this problems such as:
 - A method developed in ERDAS. Check it [here](https://landsat.usgs.gov/filling-gaps-use-scientific-analysis)
@@ -117,5 +117,8 @@ for raster, mask, name in zip(bands, mask_paths, names):
 
 
 ![png](../images/post_images/2019-02-13_b7.png)
+
+
+![png](../images/post_images/2019-02-13_thumb.png) *Landsat 7 ETM+ after destriping*
 
 I hope this tutorial can help you in your interesting project. Hit me up is there any questions regarding on this articles.
