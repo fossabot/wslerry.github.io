@@ -8,7 +8,10 @@ image: "../images/post_images/2019-02-13_thumb.png"
 
 Remote sensing is a fun game until you are dealing with abnormal datasets, it could be clouds cover %, radiometric effect, and _striping effect_!
 
-![png](../images/post_images/2019-02-13_thumb2.png) *Landsat 7 ETM+ before destriping*
+![png](../images/post_images/2019-02-13_thumb2.png)
+
+{:.image-caption}
+*Landsat 7 ETM+ before destriping*
 
 If you are working with Landsat-7 ETM+ then you are likely to encounter striping effect caused by scan line corrector (SLC) failure since 2003. In case we need to do some study or looking for historic data that dated back to 2003 for our area of interest (AOI), then definitely we need to correct or destripe this striping effect.
 
@@ -119,6 +122,9 @@ for raster, mask, name in zip(bands, mask_paths, names):
 ![png](../images/post_images/2019-02-13_b7.png)
 
 
-![png](../images/post_images/2019-02-13_thumb.png) *Landsat 7 ETM+ after destriping*
+![png](../images/post_images/2019-02-13_thumb.png)
+
+{:.image-caption}
+*Landsat 7 ETM+ after destriping*
 
 I hope this tutorial can help you in your interesting project. Hit me up is there any questions regarding on this articles.

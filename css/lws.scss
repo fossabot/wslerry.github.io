@@ -114,6 +114,12 @@ img {
   height: auto;
 }
 
+.image-caption {
+  text-align: center;
+  font-size: .8em;
+  color: #999999;
+}
+
 .cf {
   &:before {
     content:" ";
