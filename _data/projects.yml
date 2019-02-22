@@ -1,4 +1,16 @@
 -
+  name: Demo site for point cloud viewer
+  url: https://viewer.lerryws.xyz
+  image:
+  color: '#ffffff'
+  description: A demo site for point cloud viewer data from lidar point clouds and structure from Motion (SfM) aerial photogrammetry points clouds.
+-
+  name: Demo site tiles in {z}/{x}/{y}.png format
+  url: https://terrain-tiles.lerryws.xyz
+  image:
+  color: '#ffffff'
+  description: A demo site for displaying image tiles using leafletjs.
+-
   name: Drone Photogrammetry Calculator
   url: https://gsd.lerryws.xyz
   image: /images/icons/calculator_icon_200.png
