@@ -1,6 +1,6 @@
 -
   name: Drone Photogrammetry Calculator
-  url: https://lerryws.xyz/GSD
+  url: https://gsd.lerryws.xyz
   image: /images/icons/calculator_icon_200.png
   color: '#ffffff'
   description: Calculator to estimate Ground Sample Distance (GSD) from aerial photogrammetry.

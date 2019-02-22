@@ -7,7 +7,7 @@ layout: index
 image: "/images/misc/viz1.png"
 description: Lerry William's portfolio. Tips for geospatial stuff such as Geoinformation, Remote Sensing, Geomatics,
   and a bit of spatial programming (mostly python and R).
-keywords: Lerry William Seling, Remote Sensing, Geospatial, Geoinformation, Analysis, Geomatics, Cartography
+keywords: Lerry, William, Seling, Remote Sensing, Geospatial, Geoinformation, Analysis, Geomatics, Cartography
 ---
 {% include menu.html %}
 
