@@ -3,6 +3,7 @@ layout: post
 title: "Borneo RSO Converter"
 description: "Convert wgs84 lat long to BRSO Easting Northing"
 categories:
+image: "../images/post_images/2019-02-26_17-03-28.png"
 ---
 
 ![png](../images/post_images/2019-02-26_17-03-28.png)
