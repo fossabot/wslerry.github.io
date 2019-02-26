@@ -8,7 +8,7 @@ image: "../images/post_images/2019-02-26_17-03-28.png"
 
 __Coordinate Projection!__ yes, one of the most important element in mapping. I have been a _GIS_ user for a long time, and when it come to coordinate projection and transformation I take it seriously. Since the end result could affect a lot of end user and even the project itself. Understanding of coordinate projection is essential for geospatialist and also anyone who work with geographic data.
 
-Coordinate systems, map projections, and geographic transformations are blueprints and backbone of map production, because without them, you end up just making a _graphic_ and not geo-_graphic_ 😃
+Coordinate systems, map projections, and geographic transformations are blueprints and backbone of map production, because without them, you end up just making a _graphic_ and not geo-graphic 😃
 
 You might be interested to know more about [Coordinate systems, map projections, and geographic transformations](http://resources.esri.com/help/9.3/arcgisengine/dotnet/89b720a5-7339-44b0-8b58-0f5bf2843393.htm), you can check the source from
 [here](https://gisgeography.com/latitude-longitude-coordinates/), [here](https://www.e-education.psu.edu/natureofgeoinfo/c2_p10.html),
