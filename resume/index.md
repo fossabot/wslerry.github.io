@@ -30,7 +30,6 @@ mycontact:
         name: Github
         address: github.com/wslerry
         iconclass: <i class="fab fa-github"></i>
-
 jobs:
     -
         name: GP Pusaka Sdn Bhd

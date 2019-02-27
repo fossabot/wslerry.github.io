@@ -1,11 +1,11 @@
 {% include header.html %}
 {% include nav.html %}
 <nav>
-	<div style="text-align:center">
-		<div class="twelve columns ">
+	<div>
+		<div class="twelve columns "  style="text-align:center">
 			<h1>LERRY WILLIAM SELING</h1>
 		</div>
-		<div class="row" style="text-align:left">
+		<div class="address_container">
 			<ul style="list-style: none;">
 				{% for item in page.mycontact %}
 					<li>
@@ -32,6 +32,7 @@
 	<p style="text-align:center">
 		<span style="color:#6dcc6e">Education</span> | <span style="color:red">Workplace</span>
 	</p>
+
 	{% include map.html %}
 
   <h2 style="font-weight=bold">Experiences</h2>
