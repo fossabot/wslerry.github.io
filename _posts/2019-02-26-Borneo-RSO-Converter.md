@@ -87,7 +87,7 @@ PROJCS["Timbalai 1948 / RSO Borneo (m)",
 while for Proj.4 format it will be like this:
 
 ```css
-+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +gamma=53.13010236111111 +k=0.99984 +x_0=2000000 +y_0=5000000 +no_uoff +ellps=evrstSS +towgs84=-533.4,669.2,-52.5,0,0,4.28,9.4 +units=m +no_defs
++proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +gamma=53.13010236111111 +k=0.99984 +x_0=2000000 +y_0=5000000 +no_uoff +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs
 ```
 
 For now, let see what I have been done using those parameter.
