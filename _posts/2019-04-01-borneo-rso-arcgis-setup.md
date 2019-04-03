@@ -6,12 +6,12 @@ categories:
 - ArcGIS
 - esri
 - CRS
-image: "../images/post_images/20190401/2019-04-02_15-33-54.png"
+image: "../images/post_images/20190401/brso.png"
 ---
 
 How to modify Borneo RSO within your Arcgis environment? Please follow steps given below :
 
-__Note: This tutorial is based on Arcgis 9.3. Same method applied within ArcGIS 10.++.__
+__Note: This tutorial is based on Arcgis 9.3. Same method applied for ArcGIS 10.++.__
 
 1.Run Arcmap and go to _View_ > _Data Frame Properties_
 

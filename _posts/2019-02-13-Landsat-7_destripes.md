@@ -127,4 +127,34 @@ for raster, mask, name in zip(bands, mask_paths, names):
 {:.image-caption}
 *Landsat 7 ETM+ after destriping*
 
-I hope this tutorial can help you in your interesting project. Hit me up is there any questions regarding on this articles.
+Let see the different it make after processing. I hope this tutorial can help you in your interesting project. Hit me up is there any questions regarding on this articles.
+
+<!-- <div class="juxtapose">
+    <img src="../images/post_images/2019-02-13_thumb2.png" data-label="Before"/>
+    <img src="../images/post_images/2019-02-13_thumb.png" data-label="After"/>
+</div> -->
+
+<script src="../js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="../css/juxtapose.css">
+
+<div id="foo"></div>
+<script>
+slider = new juxtapose.JXSlider('#foo',
+    [
+        {
+            src: '../images/post_images/2019-02-13_thumb2.png',
+            label: 'Before'
+        },
+        {
+            src: '../images/post_images/2019-02-13_thumb.png',
+            label: 'After'
+        }
+    ],
+    {
+        animate: true,
+        showLabels: true,
+        showCredits: false,
+        startingPosition: "50%",
+        makeResponsive: true
+    });
+</script>
