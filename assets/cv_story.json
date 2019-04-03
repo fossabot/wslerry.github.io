@@ -1,0 +1,131 @@
+
+{
+	"storymap":{
+		"test": "test",
+		"slides": [
+      {"type": "overview",
+        "zoom": 13,
+      "text": {
+        "headline": "Journey",
+        "text": "Schools and work experiences"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+			{"uniqueid": "",
+        "date": 					"1835",
+				"location": {
+				"lat": 4.32057805,
+				"lon": 113.96608426},
+				"name": "SM Sains Miri",
+				"zoom": 13,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "SM Sains Miri",
+				"text": "A boarding secondary school. Graduate with SPM"},
+			"media": {
+				"url": "",
+				"caption": "",
+				"credit": ""}
+			},
+      {"uniqueid": "",
+        "location": {
+        "lat": 5.35926377,
+        "lon": 115.22489510},
+        "name": "Kolej Matrikulasi Labuan",
+        "zoom": 13,
+        "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+        "line": true,
+      "text": {
+        "headline": "Kolej Matrikulasi Labuan",
+        "text": "Matriculation college, study Physical Science"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+      {"uniqueid": "",
+        "location": {
+        "lat": 1.55930185,
+        "lon": 103.63750241},
+        "name": "Universiti Teknologi Malaysia",
+        "zoom in": 13,
+        "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+        "line": true,
+      "text": {
+        "headline": "Universiti Teknologi Malaysia",
+        "text": "BSc. Remote Sensing"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+      {"uniqueid": "",
+        "location": {
+        "lat": 2.96834651,
+        "lon": 101.78895071},
+        "name": "MySpatial",
+        "zoom": 13,
+        "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+        "line": true,
+      "text": {
+        "headline": "MySpatial",
+        "text": "Remote Sensing / GIS Intern [Jun - Sep 2012]"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+      {"uniqueid": "",
+        "location": {
+        "lat": 4.41646110,
+        "lon": 114.01225161},
+        "name": "Teamplete",
+        "zoom": 8,
+        "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+        "line": true,
+      "text": {
+        "headline": "Segi Pakatan (Teamplete)",
+        "text": "GIS Analyst [July 2013 - Aug 2014]"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+      {"uniqueid": "",
+        "location": {
+        "lat": 4.51292101,
+        "lon": 114.01668017},
+        "name": "Curtin University Malaysia",
+        "zoom": 8,
+        "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+        "line": true,
+      "text": {
+        "headline": "Curtin University Malaysia",
+        "text": "Graduate Research Assistant [Aug 2014 - Aug 2016]"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+      {"uniqueid": "",
+        "location": {
+        "lat": 3.19883179,
+        "lon": 113.05633817},
+        "name": "GP Pusaka",
+        "zoom": 12,
+        "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+        "line": true,
+      "text": {
+        "headline": "GP Pusaka",
+        "text": "GIS Analyst [Aug 2016 - Present]"},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      }
+		]
+	}
+}
