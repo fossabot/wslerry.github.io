@@ -50,6 +50,22 @@
 				"url": "",
 				"caption": "",
 				"credit": ""}
+			},
+			{"uniqueid": "",
+				"location": {
+				"lat": 1.559958,
+				"lon": 110.345314},
+				"name": "Kuching",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "Kuching",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+			"media": {
+				"url": "",
+				"caption": "",
+				"credit": ""}
 			}
 		]
 	}
