@@ -4,21 +4,46 @@
 		"test": "test",
 		"slides": [
       {"type": "overview",
-        "location": {
-        "lat": 4.399923,
-        "lon": 113.992671},
-				"name": "Miri",
-				"zoom": 5,
-				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
-				"line": true,
       "text": {
-        "headline": "Storymap Testing",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+        "headline": "Storymap Based on Wikipedia!",
+        "text": "Storymap of cities in Sarawak based on Wikipedia information!"},
       "media": {
         "url": "",
         "caption": "",
         "credit": ""}
       },
+			{"uniqueid": "",
+				"location": {
+				"lat": 4.862062,
+				"lon": 115.408392},
+				"name": "Lawas",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "",
+				"text": ""},
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Lawas",
+				"caption": "",
+				"credit": ""}
+			},
+			{"uniqueid": "",
+				"location": {
+				"lat": 4.758224,
+				"lon": 115.010340},
+				"name": "Limbang",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "",
+				"text": ""},
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Limbang",
+				"caption": "",
+				"credit": ""}
+			},
 			{"uniqueid": "",
 				"location": {
 				"lat": 4.399923,
@@ -28,10 +53,10 @@
 				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 				"line": true,
 			"text": {
-				"headline": "Miri",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+				"headline": "",
+				"text": ""},
 			"media": {
-				"url": "",
+				"url": "https://en.wikipedia.org/wiki/Miri,_Malaysia",
 				"caption": "",
 				"credit": ""}
 			},
@@ -44,10 +69,42 @@
 				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 				"line": true,
 			"text": {
-				"headline": "Bintulu",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+				"headline": "",
+				"text": ""},
 			"media": {
-				"url": "",
+				"url": "https://en.wikipedia.org/wiki/Bintulu",
+				"caption": "",
+				"credit": ""}
+			},
+			{"uniqueid": "",
+				"location": {
+				"lat": 2.288333,
+				"lon": 111.830699},
+				"name": "Sibu",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "",
+				"text": ""},
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Sibu",
+				"caption": "",
+				"credit": ""}
+			},
+			{"uniqueid": "",
+				"location": {
+				"lat": 2.011322,
+				"lon": 112.930448},
+				"name": "Kapit",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "",
+				"text": ""},
+			"media": {
+				"url": "https://en.wikipedia.org/wiki/Kapit",
 				"caption": "",
 				"credit": ""}
 			},
@@ -60,10 +117,10 @@
 				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 				"line": true,
 			"text": {
-				"headline": "Kuching",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+				"headline": "",
+				"text": ""},
 			"media": {
-				"url": "",
+				"url": "https://en.wikipedia.org/wiki/Kuching",
 				"caption": "",
 				"credit": ""}
 			}
