@@ -1,0 +1,56 @@
+
+{
+	"storymap":{
+		"test": "test",
+		"slides": [
+      {"type": "overview",
+        "location": {
+        "lat": 4.399923,
+        "lon": 113.992671},
+				"name": "Miri",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+      "text": {
+        "headline": "Storymap Testing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""}
+      },
+			{"uniqueid": "",
+				"location": {
+				"lat": 4.399923,
+				"lon": 113.992671},
+				"name": "Miri",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "Miri",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+			"media": {
+				"url": "",
+				"caption": "",
+				"credit": ""}
+			},
+			{"uniqueid": "",
+				"location": {
+				"lat": 3.171569,
+				"lon": 113.042896},
+				"name": "Bintulu",
+				"zoom": 5,
+				"icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+				"line": true,
+			"text": {
+				"headline": "Bintulu",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in pellentesque ante. Cras elementum turpis et ligula consectetur dapibus."},
+			"media": {
+				"url": "",
+				"caption": "",
+				"credit": ""}
+			}
+		]
+	}
+}
