@@ -9,6 +9,13 @@ categories:
 image:
 ---
 
+You can use this low resolution XYZ tiles for your own purpose.
+Copy URL below in your GIS software to use the service.
+
+```
+https://tiles.lerryws.xyz/sarawak_geological_map/{z}/{x}/{y}.png
+```
+
 <style>
 a {
 	text-decoration: none;
