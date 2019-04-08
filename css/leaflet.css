@@ -406,6 +406,7 @@
 	color: #333;
 	}
 .leaflet-control-attribution a {
+	font-size: 10px;
 	text-decoration: none;
 	}
 .leaflet-control-attribution a:hover {
