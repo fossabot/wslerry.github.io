@@ -6,8 +6,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
   <meta name="Robots" content="index, follow">
+
   <meta property="og:title" content="{{ page.title }}"/>
   {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}"/>{% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
@@ -15,8 +18,9 @@
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:description" content="{{ site.description }}"/>
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@{{ site.twitter_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Lerry_WS">
+  <meta name="twitter:creator" content="@Lerry_WS">
   <meta name="twitter:title" content="{{ page.title }}" />
   {% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />

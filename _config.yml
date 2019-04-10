@@ -5,8 +5,7 @@ author: Lerry William
 baseurl:
 url: lerryws.xyz
 name: Personal Website
-description: Lerry William's portfolio. Tips for geospatial stuff such as Geoinformation, Remote Sensing, Geomatics,
-  and a bit of spatial programming (mostly python and R).
+description:
 
 # site runs locally at localhost:4000 when you run `jekyll serve --watch`
 port:  4000

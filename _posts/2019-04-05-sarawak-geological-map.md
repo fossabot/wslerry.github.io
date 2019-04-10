@@ -16,13 +16,6 @@ Copy URL below in your GIS software to use the service.
 https://tiles.lerryws.xyz/sarawak_geological_map/{z}/{x}/{y}.png
 ```
 
-<style>
-a {
-	text-decoration: none;
-  font-size: 10px;
-}
-</style>
-
 <div id='map' style="width: 100%; height: 600px;"></div>
 
 <link rel="stylesheet" href="/css/leaflet.css">

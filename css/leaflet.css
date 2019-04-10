@@ -406,7 +406,8 @@
 	color: #333;
 	}
 .leaflet-control-attribution a {
-	text-decoration: none;
+	font-size: 10px;
+	text-decoration: none
 	}
 .leaflet-control-attribution a:hover {
 	text-decoration: underline;
