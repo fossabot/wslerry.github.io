@@ -407,7 +407,11 @@
 	}
 .leaflet-control-attribution a {
 	font-size: 10px;
+<<<<<<< HEAD
 	text-decoration: none
+=======
+	text-decoration: none;
+>>>>>>> ce1840e56a18c259348792d96a38fcf430520f66
 	}
 .leaflet-control-attribution a:hover {
 	text-decoration: underline;
