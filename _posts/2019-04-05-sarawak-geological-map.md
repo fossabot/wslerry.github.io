@@ -6,15 +6,21 @@ categories:
 - cartography
 - gis
 - leaflet
-image:
+image: ../images/post_images/20190405/2019-04-05_20-13-58.png
 ---
 
-You can use this low resolution XYZ tiles for your own purpose.
-Copy URL below in your GIS software to use the service.
 
+Copy URL below into your GIS software to use the service.
 ```
 https://tiles.lerryws.xyz/sarawak_geological_map/{z}/{x}/{y}.png
 ```
+
+Or, as a WMTS service
+```
+https://tiles.lerryws.xyz/sarawak_geological_map/capabilities/lerryws.xml
+```
+
+If you are interested to use customized web mapping base map you can contact me through my [email](mailto:wslerry2@hotmail.com) or [twitter](https://twitter.com/Lerry_WS).
 
 <div id='map' style="width: 100%; height: 600px;"></div>
 
