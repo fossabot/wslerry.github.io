@@ -6,7 +6,7 @@ categories:
 - cartography
 - gis
 - leaflet
-image: "../images/post_images/2019-04-05_20-13-58.png"
+image: "/images/post_images/2019-04-05_20-13-58.png"
 ---
 
 
