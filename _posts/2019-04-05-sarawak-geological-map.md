@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sarawak geological map XYZ Tiles
-description: Sarawak geological map XYZ Tiles @ maptiles
+description: XYZ Tiles and WMTS service for geological map tiles of Sarawak.
 categories:
 - cartography
 - gis
