@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: openstreetmap
+categories: OpenStreetMap
 title: OpenStreetMap
-permalink: /category/openstreetmap
+permalink: /category/OpenStreetMap
 ---

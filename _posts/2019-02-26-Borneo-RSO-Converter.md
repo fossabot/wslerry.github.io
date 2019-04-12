@@ -94,16 +94,10 @@ For now, let see what I have been done using those parameter.
 I have been writing this program to help me for conversion of the coordinate system without me to open any of GIS software.
 Here are the snapshots for a program I wrote and if you are interested to try it you can download it from [__here__](../assets/data/brso_setup.msi).
 
-{:.image-caption}
-![png](../images/post_images/2019-02-26_17-03-28.png)
-
-{:.image-caption}
+![png](../images/post_images/2019-02-26_17-03-28.png){: .center-image }
 *BRSO Variant A*
 
-{:.image-caption}
-![png](../images/post_images/2019-02-26_17-03-43.png)
-
-{:.image-caption}
+![png](../images/post_images/2019-02-26_17-03-43.png){: .center-image }
 *BRSO Variant B*
 
 If there any questions regarding on this article, please do not hesitate to contact me.

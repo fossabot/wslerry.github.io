@@ -17,21 +17,21 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 	<div class="nine columns">
 		<div class="row">
 		<h3>Hi, I'm Lerry</h3>
-		I'm working with rasters and vectors! Trying to map the world around me and solve some mysteries behind it.
-		Sometime, I code... but most of the time I do mapping.
+    <p>
+		I'm working with rasters and vectors to produce maps 🗺️ ! Trying my best to map the world around me and solve some mysteries behind it.
+    </p>
+		<p>🌏 Based in Sarawak, Malaysia 🇲🇾.</p>
 
-		Based in Sarawak, Malaysia.
-
-		Check out my <a href="/projects">project</a>!
+		Check out my <a href="/projects">project</a> 🖥️!
 		</div>
 
 		<div class="row">
 		  <h3>I Do..</h3>
 			<ul>
-				<li>Geoinformation System (GIS)</li>
-				<li>Remote Sensing processing and analysis</li>
-				<li>Web mapping</li>
-				<li>Cartography</li>
+				<li>👨‍💻 Geoinformation System (GIS)</li>
+				<li>🛰️ Remote Sensing processing and analysis</li>
+				<li>🌐 Web mapping</li>
+				<li>🗺️ Cartography</li>
 			</ul>
 		</div>
 	</div>
@@ -53,7 +53,7 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 				{% if c_slug == page.categories %}
 				  {{ c_slug }}
 				{% else %}
-				  <a href="/category/{{ c_slug }}" class="active">  {{ c_slug }}  </a>
+				  <a href="/category/{{ c_slug }}" class="active">▪️{{ c_slug }}  </a>
 				{% endif %}
 			  {% endfor %}
 			{% endfor %}
