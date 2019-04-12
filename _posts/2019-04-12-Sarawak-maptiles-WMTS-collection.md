@@ -11,7 +11,7 @@ categories:
 image:
 ---
 
-A WMTS capabilities file which is an XML, a standard protocol for serving pre-rendered or run-time computed georeferenced map tiles over the Internet.
+A WMTS is an XML file, which is a standard protocol for serving pre-rendered or run-time computed georeferenced map tiles over the Internet.
 
 Basically, WMTS request the capabilities, tile, featureinfo, or legend and return all the information into the map.
 
