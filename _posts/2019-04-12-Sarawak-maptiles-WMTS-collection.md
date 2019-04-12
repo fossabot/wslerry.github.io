@@ -8,7 +8,7 @@ categories:
 - remote sensing
 - OpenStreetMap
 - mapbox
-image:
+image: "/images/post_images/20190412/mapbox-sat.png"
 ---
 
 A WMTS is an XML file, which is a standard protocol for serving pre-rendered or run-time computed georeferenced map tiles over the Internet.
