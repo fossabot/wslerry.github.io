@@ -17,7 +17,7 @@ Basically, WMTS request the capabilities, tile, featureinfo, or legend and retur
 
 There a lot of WMTS service you can find in the Interent, but my interest is only for Sarawak region. So I write an XML capabilities to fetch various map tiles from it sources. The pre-rendered map tiles from difference sources such as [Mapbox](https://www.mapbox.com/), [OpenStreetmap](www.openstreetmap.org), [Carto](https://carto.com/), [Strava](https://www.strava.com/) and my own tiles has been added into the WMTS capabilities.
 
-Copy this URL into your favourite GIS software, or fetch the URL in your web mapping project to use the service.
+Copy this URL into your favourite GIS software, or fetch the URL to us it in your web mapping project.
 
 ```
 https://tiles.lerryws.xyz/capabilities/lws.wmts.xml
