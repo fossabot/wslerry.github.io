@@ -17,7 +17,7 @@ https://tiles.lerryws.xyz/sarawak_geological_map/{z}/{x}/{y}.png
 
 Or, as a WMTS service
 ```
-https://tiles.lerryws.xyz/sarawak_geological_map/capabilities/lerryws.xml
+https://tiles.lerryws.xyz/capabilities/lws.wmts.xml
 ```
 
 If you are interested to use customized web mapping base map you can contact me through my [email](mailto:wslerry2@hotmail.com) or [twitter](https://twitter.com/Lerry_WS).
