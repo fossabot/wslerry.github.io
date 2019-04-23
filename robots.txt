@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /resume/
 Disallow: /category/
 Disallow: /images/
+Disallow: /assets/
