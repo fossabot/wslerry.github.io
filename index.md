@@ -11,7 +11,7 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 ---
 {% include menu.html %}
 
-<!-- ![img_grn1.png](/images/misc/img_grn1.png) -->
+![img_grn1.png](/images/misc/img_grn1.png)
 <p></p>
 <div class="row">
 	<div class="nine columns">
@@ -22,7 +22,7 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
     </p>
 		<p>🌏 Based in Sarawak, Malaysia 🇲🇾.</p>
 
-		Check out my <a href="/projects">project</a> 🖥️!
+		<!-- Check out my <a href="/projects">project</a> 🖥️! -->
 		</div>
 
 		<div class="row">
@@ -45,7 +45,7 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 			<a href="https://www.linkedin.com/in/lerrywilliamseling/"><i class="fab fa-linkedin"></i></a>
       <p><p>
     </div>
-      
+
 		<div class="row">
 			<h3>Category</h3>
 			{% for category in site.categories %}

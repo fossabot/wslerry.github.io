@@ -38,7 +38,7 @@ conda create --name geopy
 ```
 Or... you need to install it based on your favorite python version:
 ```
-conda create --name geo_py37 python=3.6
+conda create --name geopy python=3.6
 ```
 - Now we already created our environment, lets activate it:
 ```
@@ -48,7 +48,7 @@ you can deactivate it by using this command(but please do not deactivate it yet,
 ```
 conda deactivate geopy
 ```
-- After activated or python environment, lets download our packages/module.
+- After activated your python environment, lets download our packages/module.
 ```
 conda install -c conda-forge gdal shapely opencv rasterstats geopandas folium cartopy xarray pynio pseudonetcdf
 ```
