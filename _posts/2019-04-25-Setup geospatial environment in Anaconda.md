@@ -18,7 +18,7 @@ We need python geospatial libraries in order to do analysis and visualization of
 1. Download Anaconda
 - You can download anaconda from Anaconda [website](https://www.anaconda.com/distribution/) based on your OS.
 - Anaconda comes with Jupyter Notebook and Spyder.
-- Make sure you select and download Anaconda with Python version 3.0 ~ 3.7. Why? because python 2.7 will be no [longer maintained](https://pythonclock.org/) in 2020.
+- Make sure you select and download Anaconda with Python version 3.0 ~ 3.7. Why? because python 2.7 will be [no longer maintained](https://pythonclock.org/) in 2020.
 
 2. Setup environment in Anaconda
 - Run Anaconda Prompt (type and search `Anaconda Prompt` in Windows startup search box)
