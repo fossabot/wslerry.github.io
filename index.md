@@ -11,7 +11,7 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 ---
 {% include menu.html %}
 
-![img_grn1.png](/images/misc/img_grn1.png)
+<!-- ![img_grn1.png](/images/misc/img_grn1.png) -->
 <p></p>
 <div class="row">
 	<div class="nine columns">
