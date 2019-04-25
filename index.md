@@ -44,7 +44,6 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 			<a href="https://twitter.com/Lerry_WS"><i class="fab fa-twitter"></i></a>
 			<a href="https://www.linkedin.com/in/lerrywilliamseling/"><i class="fab fa-linkedin"></i></a>
       <p><p>
-    </div>
 
 		<div class="row">
 			<h3>Category</h3>
