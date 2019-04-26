@@ -55,23 +55,35 @@ body {
     }
   }
   img {
-    width: 80px; //use 60px if image is not header
+    width: 60px; //use 60px if image is not header
     left: 0;
     bottom: 0;
     height: auto;
-    // background-color: $main-color;
+    &:hover {
+      opacity: 0.1;
+    }
   }
   // i, .icon {
   //   width: 10px;
   //   height: auto;
   // }
-  margin-bottom: 4.8em;
+  margin-bottom: 8em;
 }
 
 .container {
   max-width: $max-width;
   padding: 1em;
   margin: auto;
+  img {
+    &:hover {
+      opacity: 0.1;
+    }
+  }
+  a {
+    &:hover {
+      border: none;
+    }
+  }
 }
 
 .address_container {
