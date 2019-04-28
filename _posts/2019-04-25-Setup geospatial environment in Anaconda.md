@@ -50,7 +50,7 @@ conda deactivate geopy
 ```
 - After activated your python environment, lets download our packages/module.
 ```
-conda install -c conda-forge gdal shapely opencv rasterstats geopandas folium cartopy xarray pynio pseudonetcdf
+conda install -c conda-forge gdal shapely opencv rasterstats geopandas folium cartopy xarray
 ```
 ```
 conda install -c anaconda scikit-learn scikit-image scipy rasterio psycopg2 netcdf4 seaborn pandas statsmodels bokeh colorcet
