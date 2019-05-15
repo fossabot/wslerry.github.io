@@ -102,8 +102,8 @@ Finally, we will able to plot our geospatial raster data by following below:
 plt.figure(figsize=(10,10))
 plt.imshow(img[:3,:,:].transpose((1, 2, 0)), extent=extent)
 plt.title('Bakun Reservoir, Sarawak')
-plt.xlabel('Northing')
-plt.ylabel('Easting')
+plt.xlabel('Easting')
+plt.ylabel('Northing')
 plt.show()
 ```
 The output :
@@ -150,8 +150,8 @@ print(extent)
 plt.figure(figsize=(10,10))
 plt.imshow(img[:3,:,:].transpose((1, 2, 0)), extent=extent)
 plt.title('Bakun Reservoir, Sarawak')
-plt.xlabel('Northing')
-plt.ylabel('Easting')
+plt.xlabel('Easting')
+plt.ylabel('Northing')
 plt.show()
 ```
 You also can download jupyter notebook of this tutorial from [here](../assets/tutorial/GDAL_raster.ipynb).
