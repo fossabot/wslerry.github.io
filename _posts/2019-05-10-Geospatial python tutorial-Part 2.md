@@ -45,7 +45,7 @@ trans = ds.GetGeoTransform()
 proj = ds.GetProjection()
 ```
 
-Whenever you working with raster data, it is a good practice for you to convert your image into array, since python use array for calculation when we doing further analysis such as image processing to image classification (I will discuss this in next tutorial)
+Whenever you working with raster data, it is a good practice for you to convert your image into array, since python using array for calculation when we are doing further analysis such as image processing or image classification (I will discuss this in next tutorial).
 
 Our goal for this tutorial is to display our data into Jupyter Notebook, so before that we need to import matplotlib library to our script, so we can plot our image.
 
