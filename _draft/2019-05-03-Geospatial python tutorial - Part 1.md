@@ -10,3 +10,5 @@ categories:
 - image processing
 image:
 ---
+
+We already setup our python environment in this tutorial, so let move forward to the next step where we going to setup our workspace. For this tutorial I will using Jupyter Notebook, but before that let setup and prepare our workspace.
