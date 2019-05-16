@@ -15,7 +15,7 @@ image: "../images/post_images/thumb.png"
 
 We already setup our python environment in [this tutorial](https://lerryws.xyz/posts/Setup-geospatial-environment-in-Anaconda), so let move forward to the next step where we going to setup our working directory. For this tutorial I will using Jupyter Notebook, but before that lets setup and prepare our workspace.
 
-First, lets check a list of available environment within Anaconda. From previous tutorial we already created an environment called 'geopy'. Type this command the Anaconda terminal to check our environment:
+First, lets check a list of available environment within Anaconda. From previous tutorial we already created an environment called 'geopy'. Type this command in the Anaconda terminal to check our environment:
 
 ```bash
 conda env list
