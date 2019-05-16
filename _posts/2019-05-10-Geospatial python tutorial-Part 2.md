@@ -59,7 +59,7 @@ To map our 2D image, we will need to define our image extent (X1,X2,Y1,Y2), wher
 - Y1 : minimum Y
 - Y2 : maximum Y
 
-From `trans = ds.GetGeoTransform()` we need to define our trasnformation origins, rotation and size. GDAL format will be like this: orientation X, size X, rotation X, orientation Y, size Y, orientation Y
+From `trans = ds.GetGeoTransform()` we need to define our trasnformation origins, rotation and size. GDAL format will be like this: orientation X, size X, rotation X, orientation Y, rotation Y, size Y
 
 Which can be translate into:
 ```python
