@@ -16,14 +16,12 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 <div class="row">
 	<div class="nine columns">
 		<div class="row">
-		<h3>Hi, I'm Lerry</h3>
-    <p>
-		I'm working with rasters and vectors to produce maps 🗺️ ! Trying my best to map the world around me and solve some mysteries behind it.
-    </p>
-		<p>🌏 Based in Sarawak, Malaysia 🇲🇾.</p>
-
-		<!-- Check out my <a href="/projects">project</a> 🖥️! -->
-
+  		<h3>Hi, I'm Lerry</h3>
+      <p style="text-align:center;"><img src="/images/misc/terrain_3d.gif" width="150" height="auto" style="text-align:center" /></p>
+      <p>
+  		I'm working with rasters and vectors to produce maps 🗺️ ! Trying my best to map the world around me and solve some mysteries behind it.
+      </p>
+  		<p>🌏 Based in Sarawak, Malaysia 🇲🇾.</p>
 		</div>
 
 		<div class="row">
@@ -44,6 +42,7 @@ keywords: Lerry William, Remote Sensing, Geospatial, Geoinformation, Analysis, G
 			<a href="https://github.com/wslerry"><i class="fab fa-github"></i><a href="https://github.com/wslerry"></a>
 			<a href="https://twitter.com/Lerry_WS"><i class="fab fa-twitter"></i></a>
 			<a href="https://www.linkedin.com/in/lerrywilliamseling/"><i class="fab fa-linkedin"></i></a>
+
 
 		<div class="row">
 			<h3>Category</h3>
